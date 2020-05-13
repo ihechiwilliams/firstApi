@@ -25,7 +25,7 @@ SECRET_KEY = 'pke_9z7i$(dkaui5whgft!hof$wit==_mfhm)z!l=x)wk+d+er'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['intense-anchorage-66417.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
