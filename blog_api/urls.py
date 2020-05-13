@@ -18,5 +18,5 @@ urlpatterns = [
     path('api/v1/rest-auth/registration/', include('rest_auth.registration.urls')),
     path('docs/', include_docs_urls(title=API_TITLE, description=API_DESCRIPTION)),
     # path('schema/', schema_view),
-    path('swagger-docs/', schema_view),
+    path('', schema_view),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
